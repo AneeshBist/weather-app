@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "creating weather app with nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AneeshBist/weather-app.git"
+  },
+  "author": "Aneesh Bist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AneeshBist/weather-app/issues"
+  },
+  "homepage": "https://github.com/AneeshBist/weather-app#readme",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}
