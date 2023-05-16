@@ -1,12 +1,11 @@
 $(document).ready(function () {
   $("#date").html(getCurrentValues());
-  console.log(getCurrentValues());
+  setTempStatus();
+  //console.log(getCurrentValues());
 });
 
 const currDate = document.getAnimations("date");
-let weathercon = document.getElementById("weather-ico");
 
-const tempStatus = "Clouds";
 let currentTime = new Date();
 
 const getCurrentDay = () => {
